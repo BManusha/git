@@ -1,0 +1,28 @@
+$ git branch signup
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (substraction)
+$ git checkout master
+Switched to branch 'master'
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (master)
+$ git branch signup
+fatal: a branch named 'signup' already exists
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (master)
+$ git branch sigup
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (master)
+$ git branch
+  addition
+* master
+  signup
+  sigup
+  substraction
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (master)
+$ git checkout sigup
+Switched to branch 'sigup'
+
+user@DESKTOP-QVSS2OV MINGW64 ~/desktop/lakshana/git (sigup)
+$ notepad sigup.txt
+
